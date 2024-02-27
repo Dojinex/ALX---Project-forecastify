@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ALX---Project-forecastify/static/css/main.e28a5528.css",
+    "main.js": "/ALX---Project-forecastify/static/js/main.37a077b2.js",
+    "static/js/453.75c55990.chunk.js": "/ALX---Project-forecastify/static/js/453.75c55990.chunk.js",
+    "static/media/Background1.jpg": "/ALX---Project-forecastify/static/media/Background1.f898a9ba73e5e1e1c27a.jpg",
+    "static/media/cloud.png": "/ALX---Project-forecastify/static/media/cloud.20f353f873a9b27949a9.png",
+    "index.html": "/ALX---Project-forecastify/index.html",
+    "main.e28a5528.css.map": "/ALX---Project-forecastify/static/css/main.e28a5528.css.map",
+    "main.37a077b2.js.map": "/ALX---Project-forecastify/static/js/main.37a077b2.js.map",
+    "453.75c55990.chunk.js.map": "/ALX---Project-forecastify/static/js/453.75c55990.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e28a5528.css",
+    "static/js/main.37a077b2.js"
+  ]
+}
