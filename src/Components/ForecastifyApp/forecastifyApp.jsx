@@ -36,8 +36,8 @@ const ForecastifyApp = () => {
         const location =document.getElementsByClassName("weather-location");
 
         humidity[0].innerHTML = data.main.humidity+" %";
-        wind[0].innerHTML = math.float(data.wind.speed)+" Km/h";
-        temperature[0].innerHTML = math.float(data.main.temp)+" oC";
+        wind[0].innerHTML = Math.floor(data.wind.speed)+" Km/h";
+        temperature[0].innerHTML = Math.floor(data.main.temp)+" oC";
         location[0].innerHTML = data.name;
 
         if(data.weather[0].icon==="01d" || data.weather[0].icon==="01n")
@@ -88,8 +88,7 @@ const ForecastifyApp = () => {
               <div className="weather-image">
                 <img src={wicon} alt="" />
               </div>
-              <div className="weather-temp">24
-               °C</div>
+              <div className="weather-temp">24 oC</div>
               <div className="weather-location">Abuja</div>
               <div className="data-container">
                 <div className="element">
